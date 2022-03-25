@@ -1,0 +1,19 @@
+{
+  "name": "lord-leben",
+  "version": "1.0.0",
+  "description": "Haben Sie sich schon einmal gefragt wie das Leben eines Lords aussieht? Finden Sie es heraus!",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "inquirer": "^8.2.2",
+    "nanospinner": "^1.0.0"
+  }
+}
