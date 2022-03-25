@@ -9,6 +9,8 @@ import { createSpinner } from 'nanospinner';
 const sleep = (ms = 2000) => new Promise((r) => setTimeout(r, ms));
 
 const willkommen = async () => {
+    console.log(chalk.blue('Jeder wäre gern reich!'));
+    console.log();
     console.log(chalk.red('SIE SIND EIN LORD!'));
     console.log();
     await sleep(1000);
